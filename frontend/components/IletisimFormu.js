@@ -73,7 +73,7 @@ const IletisimFormu = () => {
       <h1>İletişim Formu</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="ad">Ad*</label>
+          <label htmlFor="ad">Ad</label>
           <input
             onChange={handleChange}
             name="ad"
